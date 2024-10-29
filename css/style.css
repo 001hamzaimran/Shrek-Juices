@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Outfitreg;
+    src: url('/Fonts/Outfit-Regular.otf');
+}
+
+@font-face {
+    font-family: Outfitsb;
+    src: url('/Fonts/Outfit-SemiBold.otf');
+}
+
+@font-face {
+    font-family: Outfitbold;
+    src: url('/Fonts/Outfit-Bold.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: outfitreg;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li,
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sec1 {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: outfitbold;
+}
+
+/* navbar */
+nav {
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+.rght>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.rght,
+.lft {
+    margin: 0 3rem;
+}
+
+.rght>ul>li>a {
+    color: black;
+}
+
+.lft {
+    display: flex;
+    gap: 2rem;
+}
+
+/* navbar */
+
+
+/* slides  */
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.slide1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(160, 159, 159, 0.1), rgba(134, 134, 134, 0.1)), url('/Assets/Slider_2.webp');
+    object-position: bottom;
+  
+}
+
+.slide2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(160, 159, 159, 0.1), rgba(134, 134, 134, 0.1)), url('/Assets/Slider_1.webp');
+    object-position: bottom;
+  
+}
+
+.slide3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(160, 159, 159, 0.1), rgba(134, 134, 134, 0.1)), url('/Assets/Slider_3.webp');
+    object-position: bottom;
+  
+}
+
+.content {
+    width: 55%;
+    position: absolute;
+    bottom: 29.5%;
+    left: 2.4%;
+}
+
+.content h1 {
+    margin-bottom: 1.5rem;
+    font-family: outfitsb;
+    font-size: 3.4rem;
+}
+
+.content p {
+    margin-bottom: 2rem;
+    width: 85%;
+}
+
+/* slides buttons */
+.buttons {
+    margin-top: 2rem;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.shopnow {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: .4em;
+    padding: .5rem 1.8rem;
+    font-size: small;
+    transition: .6s ease;
+}
+
+.shopnow:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.vidlink {
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    transition: .7s ease;
+    align-items: center;
+    /* background-color: rgb(214, 81, 81); */
+}
+
+.slideicon {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 80%;
+    /* background-color: white; */
+}
+
+.vidlink:hover {
+    color: rgb(201, 141, 31);
+    cursor: pointer;
+}
+
+.vidcont {
+    display: flex;
+    align-items: flex-start;
+    line-height: .1em;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin-left: .4em;
+    /* background-color: rgba(165, 9, 9, 0.329); */
+}
+
+.vidcont h3 {
+    font-family: outfitsb;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.vidcont p {
+    font-size: 1em;
+    font-weight: 100;
+}
+
+/* slides buttons */
+/* slides  */
+
+/* sec2 */
+
+.sec2 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection {
+    width: 95%;
+    height: 80%;
+    /* background-color: #dadada; */
+}
+
+.top {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.btn>button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    text-align: center;
+    margin-left: .5rem;
+}
+
+.prodcollection{
+    width: 100%;
+    height: calc();
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.productcard{
+    width: 10rem;
+    height: 14rem;
+    /* background-color: aqua; */
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productcard>img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.productcard p{
+    margin-top: .5rem;
+}
+
+/* sec2 */

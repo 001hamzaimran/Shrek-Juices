@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME|SHREK JUICES</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="Assets/fruitpng.png" type="image/x-icon">
+    <!-- favicon -->
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- style sheets -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="responsivestyle.css">
+    <!-- animate css cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="css/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="css/v6.5.1/css/sharp-light.css">
+    <link rel="stylesheet" href="css/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="css/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="css/v6.5.1/css/sharp-thin.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- side bar -->
+    <div id="sidebar">
+        <i class="fa-solid fa-xmark" id="close-sidebar">x</i>
+    </div>
+    <!-- side bar -->
+
+    <!-- navbar  -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="nav-brand" href="index.html "><img src="Assets/logo.png" width="100px" alt="logo"
+              class="img-fluid gx-0 m-0 "></a>
+          <!-- mbl cart -->
+          <!-- <li class="nav-item" style="list-style: none;">
+            <a class="btn   me-2 " id="carrt" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="2"><i
+                class="fa-solid fa-cart-shopping-fast" id="cart-mbl<span id="cartNum">2</span>--></i>
+              <!-- mbl cart 
+  
+            </a>
+          </li> -->
+  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" id="navli" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active  dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu dro" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="product.html">Winter Menu</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="product.html">Fruit Juice</a></li>
+                  <li><a class="dropdown-item" href="product.html">Vegetable Juice</a></li>
+                  <li><a class="dropdown-item" href="product.html">Smothies</a></li>
+                  <li><a class="dropdown-item" href="product.html">Protien Shakes</a></li>
+                  <li><a class="dropdown-item" href="product.html">Chocolate Juices</a></li>
+                  <li><a class="dropdown-item" href="product.html">Mocktail</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="CustomJuice.html">Custom Juice</a></li>
+  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="catering.html">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="feedback.html">Feedback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Franchise.html">Franchise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="AboutUs.html">About Us</a>
+              </li>
+  
+              <!-- <li class="nav-item">
+                <a class="btn   me-2 " id="carrt" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                  title="0 Cart Empty"><i class="fa-solid fa-cart-shopping cartt dkcart"></i>
+  
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="Login.html">Login</a>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+        </div>
+      </nav>
+  
+    <!-- navbar  -->
+
+    <div class="container-fluid " id="buttons">
+        <div class="row">
+            <p class="h1 fw-bold px-4 py-2 animate__animated animate__fadeInLeft d-flex justify-content-center  ">
+                PRODUCT PAGE</p>
+            <div class="row">
+                <div
+                    class="col-md-9  border-3 border-top border-bottom  py-3  border-success  mx-auto  animate__animated animate__fadeInUp">
+                    <a href="#Winter-Menu"><button class="btn btn-outline-dark m-1 ">Winter Menu</button></a>
+                    <a href="#Fruit-Juices"><button class="btn btn-outline-dark m-1 ">Fruit Juice</button></a>
+                    <a href="#Vegetable-Juices"><button class="btn btn-outline-dark m-1 ">Vegetable Juice</button></a>
+                    <a href="#Smoothies"><button class="btn btn-outline-dark m-1 ">Smoothies</button></a>
+                    <a href="#Protein-Shakes"><button class="btn btn-outline-dark m-1 ">Protein Shakes</button></a>
+                    <a href="#Chocolate-Juice"><button class="btn btn-outline-dark m-1 ">Chocolate Juice</button></a>
+                    <a href="#MockTail"><button class="btn btn-outline-dark m-1 ">Mocktail</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid " id="Winter-Menu">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Winter Menu</p>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/apple-juice.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Apple Retreat</h4>
+                                <p class="text-secondary mt-2  ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/peach-juice.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Peach Juice</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-sm-3 mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/grapes.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Grape Juice</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/berry-pop.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Berry Pop</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid " id="Fruit-Juices">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Fruit Juices</p>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/kiwi.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Kiwi Bonanza</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/mango.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Mango Fusion</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/cit.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Citrus Juice</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/orange-juiice.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Orange Squeeze</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid " id="Vegetable-Juices">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Vegetable Juices</p>
+                </div>
+
+                
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/lemon-zest.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Lemon Zest</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/carrot.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Carrot Craze</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/cucumber.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Cucumber Cooler</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/tomato.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Tomato Tango</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid " id="Smoothies">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Smoothies</p>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/trpical-paradise.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Tropical Paradise</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/green-goddes.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Green Goddess</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/bliss.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Chocolate Banana Bliss</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid " id="Protein-Shakes">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Protein Shakes</p>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/berry-pro.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Berry Burst</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/vanill-pro.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Vanilla Delight</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid " id="Chocolate-Juice">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Chocolate Juices</p>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/choco.webp" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Choco-Berry Fusion</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/chocostraw.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>CocaStraw Delight</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid " id="MockTail">
+        <div class="row px-2 my-5  ">
+            <div class="col-md-11 mx-auto  col-11 ">
+                <div class="row  ">
+                    <p class="h2">Mocktail</p>
+                </div>
+
+                <div class="row mt-3 ">
+                    <div class="col-md-6 border border-1 rounded-3 ">
+                        <div class="row">
+                            <div class="col-md-3  gx-0 ">
+                                <img src="Assets/products/MOCKTAIL1.webp" class="img-fluid">
+                            </div>
+                            <div class="col-md-4 gx-0 py-3">
+                                <h4>Green Ogre Punch</h4>
+                                <p class="text-secondary m-0 ">$100</p>
+                                <button class="btn btn-success btn-sm mt-md-2 mt-sm-3 " id="Productaddbtn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="text-center text-lg-start text-muted">
+
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start pt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <!-- <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Shrek Juices
+            </h6> -->
+            <img src="Assets/logo.png" width="100px" alt="" class="img-fluid mb-4 ">
+            <p>
+              Welcome to Shrek-Juices, where every sip is a journey through the whimsical world of flavors!
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!- Links --
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact Us
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">History</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Wholesale</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Brand Ambassador</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Terms of Use</a>
+            </p>
+          </div> -->
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Information
+            </h6>
+            <p>
+              <a href="AboutUs.html" class="text-reset">Faq</a>
+            </p>
+            <p>
+              <a href="Contact.html" class="text-reset">Locate Us</a>
+            </p>
+            <p>
+              <a href="Contact.html" class="text-reset">Contact Us</a>
+            </p>
+            <p>
+              <a href="Login.html" class="text-reset">Login</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Syed Hamza Imran Hussain</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script>
+    var proBtn= document.querySelectorAll("#Productaddbtn");
+    proBtn.addEventListener('click' , ()=>{
+        alert("Item Added to Cart Successfully!");
+    })
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

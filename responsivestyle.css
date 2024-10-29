@@ -1,0 +1,163 @@
+@media only screen and (max-width: 768px) {
+
+    * {
+        /* overflow-x: hidden; */
+    }
+
+    .sectionOne {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(Assets/mobile/Slider_2.webp);
+        object-fit: cover;
+        transition: .1s ease;
+        animation: changebg 15s ease-in 2s infinite;
+    }
+
+
+
+    @keyframes changebg {
+        0% {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(Assets/mobile/Slider_2.webp);
+        }
+
+        30% {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(Assets/mobile/Slider_1.webp);
+        }
+
+        60% {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(Assets/mobile/Slider_3.webp);
+        }
+
+        90% {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(Assets/mobile/Slider_2.webp);
+        }
+    }
+
+
+    .navbar {
+        background-color: white !important;
+    }
+
+    .partOne {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .partOne h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .partOne p {
+        /* margin-top: ; */
+        /* line-height: 50px; */
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        font-weight: 200;
+    }
+
+    .partTwo {
+        /* display: none;    */
+    }
+
+    #cart-mbl {
+        display: block;
+    }
+
+    .proCard {
+        display: none;
+    }
+
+    .proImg {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sugar-btn {
+        display: none;
+    }
+
+    .sugarFree>h1,
+    .sugarFree>p {
+        display: none;
+    }
+
+    .sugarFree_Img {
+        /* background-image: url(/Assets/fruits.webp); */
+        width: 1000px;
+
+    }
+
+    /* custom Juices */
+    #navbarCJ {
+        background-color: transparent !important;
+    }
+
+    /* custom Juices */
+
+
+    /* Contact Us */
+
+
+
+
+    .contact-container {
+        height: 100%;
+        width: 92svw;
+    }
+
+    .row>h1 {
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+    #productbutton {
+        width: 100% !important;
+    }
+
+    #colprod {
+        display: flex !important;
+        flex-direction: row !important;
+
+    }
+
+
+
+    /* Contact Us */
+
+
+    /* catering */
+    #hero-cater {
+        height: 60vh !important;
+    }
+
+    #hero-cater>h1 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    #hero2-cater {
+        padding: 0 20px !important;
+        margin: 20px !important;
+    }
+
+
+    #navlogtext {
+        display: none;
+    }
+
+    /* catering */
+}
